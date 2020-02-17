@@ -6,7 +6,7 @@ var Male Gender = "male"
 var Female Gender = "female"
 
 type Member struct {
-	Name              string
+	Name            string
 	Gender          Gender
 	Husband         *Member
 	Wife            *Member
@@ -14,8 +14,8 @@ type Member struct {
 	Photo           string
 	Occupation      string
 	Accomplishments []Accomplishment
-  FacebookRef string
-  TwitterRef string
+	FacebookRef     string
+	TwitterRef      string
 }
 
 type Accomplishment struct {

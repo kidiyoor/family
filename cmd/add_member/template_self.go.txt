@@ -1,0 +1,14 @@
+package {{.Package}}
+
+import (
+  "kidiyoor.io/family-tree/pkg/types"
+)
+
+var (
+  // {{.NameTitle}} is a member of the family.
+  {{.NameTitle}} = types.Member{
+    Name: "{{.Name}}",
+    Children: []*types.Member{},
+    Gender: {{.Gender}},
+  }
+)
