@@ -1,11 +1,10 @@
 package main
 
 import (
-	"fmt"
-
+	"kidiyoor.io/family-tree/pkg/members"
 	"kidiyoor.io/family-tree/pkg/tree"
 )
 
 func main() {
-	fmt.Println(tree.Display())
+	tree.Display(&members.Root, "")
 }

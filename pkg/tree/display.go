@@ -1,15 +1,21 @@
 package tree
 
 import (
-	"kidiyoor.io/family-tree/pkg/members"
+	"fmt"
+
+	"kidiyoor.io/family-tree/pkg/types"
 )
 
-// Display returns the family tree in string format.
-func Display() string {
-	str := ""
-	for _, m := range members.Root.Children {
-		str = str + " | " + m.Name
+// Display the family tree.
+func Display(m *types.Member, spaces string) {
+	fmt.Println(spaces + m.Name)
+	spaces = spaces + " "
+
+	if len(m.Children) == 0 {
+		return
 	}
 
-	return str
+	for _, c := range m.Children {
+		Display(c, spaces)
+	}
 }

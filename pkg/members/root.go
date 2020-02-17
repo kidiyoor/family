@@ -5,5 +5,6 @@ import (
 )
 
 var (
+	// Root of the family.
 	Root = rangu.Rangu
 )

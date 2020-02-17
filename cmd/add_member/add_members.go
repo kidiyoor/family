@@ -144,7 +144,7 @@ func main() {
 		os.Remove(newDir)
 		log.Fatal("Failed to write to parent self.go, ", err)
 	}
-	fmt.Println(lines)
+
 	parentSelfFileForWrite, err := os.Create(parentDir + "/self2.go")
 	defer parentSelfFileForWrite.Close()
 	if err != nil {
@@ -160,4 +160,6 @@ func main() {
 
 	os.Remove(parentDir + "/self.go")
 	os.Rename(parentDir+"/self2.go", parentDir+"/self.go")
+
+	fmt.Println("Member added successfully")
 }
