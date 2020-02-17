@@ -3,5 +3,5 @@
 ### Add Members to the family tree
 Example:
 ```
-./add_member -parent=rangu/akkamma/babi/venkatramana -gender=m Gautham
+./cmd/add_member/add_members -parent=rangu/akkamma/babi/venkatramana -gender=m Gautham
 ```
