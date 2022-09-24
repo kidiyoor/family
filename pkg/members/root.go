@@ -1,10 +1,13 @@
 package members
 
 import (
+	"kidiyoor.io/family-tree/pkg/members/angara"
 	"kidiyoor.io/family-tree/pkg/members/rangu"
 )
 
 var (
 	// Root of the family.
-	Root = rangu.Rangu
+	Sankesh = rangu.Rangu
+
+	Kanangi = angara.Angara
 )

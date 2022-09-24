@@ -9,7 +9,11 @@ import (
 )
 
 func main() {
-	tree.Display(&members.Root, "")
-	t, _ := json.Marshal(members.Root)
-	fmt.Println(string(t))
+	tree.Display(&members.Sankesh, "")
+	tSankesh, _ := json.Marshal(members.Sankesh)
+	fmt.Println(string(tSankesh))
+
+	tree.Display(&members.Kanangi, "")
+	tKanangi, _ := json.Marshal(members.Kanangi)
+	fmt.Println(string(tKanangi))
 }
