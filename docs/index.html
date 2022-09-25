@@ -35,14 +35,14 @@ const params = new Proxy(new URLSearchParams(window.location.search), {
 });
 let fam = params.family;
 
-fetch("../../jsons/sankesh.json").then(response => response.json()).then(data => {
+fetch("https://raw.githubusercontent.com/kidiyoor/family/master/jsons/sankesh.json").then(response => response.json()).then(data => {
   sankeshTree=data;
   if (!fam || fam  == "sankesh") {
     changeToSankeshTree()
   }
 })
 
-fetch("../../jsons/kanangi.json").then(response => response.json()).then(data => { 
+fetch("https://raw.githubusercontent.com/kidiyoor/family/master/jsons/kanangi.json").then(response => response.json()).then(data => { 
   kanangiTree=data;
   if (fam == "kanangi") {
     changeToKanangiTree()
