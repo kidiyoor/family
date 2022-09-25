@@ -2,7 +2,7 @@ package pramila
 
 import (
   "kidiyoor.io/family-tree/pkg/types"
-  "kidiyoor.io/family-tree/pkg/members/angara/narsi/sundari/pramila/prajna"
+  "kidiyoor.io/family-tree/pkg/members/rangu/akkamma/babi/lokanath/prajna"
 )
 
 var (
