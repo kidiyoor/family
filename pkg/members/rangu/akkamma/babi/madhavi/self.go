@@ -11,6 +11,10 @@ var (
 	// Madhavi is a member of the family.
 	Madhavi = types.Member{
 		Name:     "Madhavi",
+    Spouse: &types.Member{
+        Name: "Venkatesh",
+        Gender: types.Male,
+      },
 		Children: []*types.Member{&bipin.Bipin, &dinnu.Dinnu, &sachin.Sachin},
 		Gender:   types.Female,
 	}

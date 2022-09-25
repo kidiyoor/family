@@ -1,4 +1,4 @@
-pkg/members/rangu/akkamma/babi/devayani/mamta/self.gopackage mamta
+package mamta
 
 import (
   "kidiyoor.io/family-tree/pkg/types"

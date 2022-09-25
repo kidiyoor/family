@@ -1,4 +1,4 @@
-pkg/members/rangu/akkamma/babi/madhavi/bipin/self.go package bipin
+package bipin
 
 import (
 	"kidiyoor.io/family-tree/pkg/types"
