@@ -35,7 +35,7 @@ var kanangiTree =
 const params = new Proxy(new URLSearchParams(window.location.search), {
   get: (searchParams, prop) => searchParams.get(prop),
 });
-let fam = params.fam;
+let fam = params.family;
 
 treeData = sankeshTree
 if (fam == "sankesh"){
