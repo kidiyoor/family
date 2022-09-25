@@ -8,14 +8,14 @@ import (
   "kidiyoor.io/family-tree/pkg/members/angara/giriyaputran/janaki/bharathi"
   "kidiyoor.io/family-tree/pkg/members/angara/giriyaputran/janaki/rekha"
   "kidiyoor.io/family-tree/pkg/members/angara/giriyaputran/janaki/latha"
-  "kidiyoor.io/family-tree/pkg/members/angara/giriyaputran/janaki/harsha"
+  "kidiyoor.io/family-tree/pkg/members/angara/giriyaputran/janaki/harish"
 )
 
 var (
   // Janaki is a member of the family.
   Janaki = types.Member{
     Name: "Janaki",
-    Children: []*types.Member{&bharathi.Bharathi, &harsha.Harsha, &latha.Latha, &mohan.Mohan, &rekha.Rekha, &renuka.Renuka, &vaman.Vaman, },
+    Children: []*types.Member{&bharathi.Bharathi, &harish.Harish, &latha.Latha, &mohan.Mohan, &rekha.Rekha, &renuka.Renuka, &vaman.Vaman, },
     Gender: types.Female,
   }
 )

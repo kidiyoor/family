@@ -10,7 +10,7 @@ var (
   Nithin = types.Member{
     Name: "Nithin",
     Spouse: &types.Member{
-        Name: "Sanisha's Mom",
+        Name: "Manasa",
         Gender: types.Female,
       },
     Children: []*types.Member{&sanisha.Sanisha, },

@@ -6,6 +6,12 @@ Example:
 ./cmd/add_member/add_members -parent=rangu/akkamma/babi/venkatramana -gender=m Gautham
 ```
 
+### Reflect changes in UI
+```
+go run cmd/display/main.go --family=kanangi --print-json=true > ./jsons/kanangi.json
+go run cmd/display/main.go --family=sankesh --print-json=true > ./jsons/sankesh.json
+```
+
 ### Tree
 
 [Tree UI](https://kidiyoor.github.io/family)
