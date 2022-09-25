@@ -8,8 +8,12 @@ import (
 
 // Display the family tree.
 func Display(m *types.Member, spaces string) {
-	fmt.Println(spaces + m.Name)
-	spaces = spaces + "--------"
+        couple := m.Name
+	if m.Spouse != nil {
+             couple = couple + " <3 " + m.Spouse.Name
+        }
+        fmt.Println(spaces + couple)
+        spaces = spaces + "--------"
 
 	if len(m.Children) == 0 {
 		return

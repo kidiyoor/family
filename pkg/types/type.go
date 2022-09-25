@@ -13,8 +13,7 @@ var Female Gender = "female"
 type Member struct {
 	Name            string `json:"name"`
 	Gender          Gender
-	Husband         *Member
-	Wife            *Member
+	Spouse          *Member `json: "spouse"`
 	Children        []*Member `json:"children"`
 	Photo           string
 	Occupation      string

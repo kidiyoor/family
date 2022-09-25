@@ -10,6 +10,10 @@ var (
   // Venkatramana is a member of the family.
   Venkatramana = types.Member{
     Name: "Venkatramana",
+    Spouse: &types.Member{
+        Name: "Nalini",
+        Gender: types.Female,
+      },
     Children: []*types.Member{&dhanaraj.Dhanaraj, &gautham.Gautham, },
     Gender: types.Male,
   }
