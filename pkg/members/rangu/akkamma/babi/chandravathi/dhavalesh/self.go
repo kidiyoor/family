@@ -10,6 +10,10 @@ var (
   // Dhavalesh is a member of the family.
   Dhavalesh = types.Member{
     Name: "Dhavalesh",
+    Spouse: &types.Member{
+        Name: "Mallika",
+        Gender: types.Female,
+      },
     Children: []*types.Member{&sanath.Sanath, &siddhan.Siddhan, },
     Gender: types.Male,
   }

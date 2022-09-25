@@ -10,6 +10,10 @@ var (
 	// Dinnu is a member of the family.
 	Dinnu = types.Member{
 		Name:     "Dinesh",
+    Spouse: &types.Member{
+        Name: "Neetha",
+        Gender: types.Female,
+      },
     Children: []*types.Member{&vidhi.Vidhi, &vignesh.Vignesh, },
 		Gender:   types.Male,
 	}

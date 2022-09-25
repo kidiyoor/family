@@ -1,4 +1,4 @@
-package mamta
+pkg/members/rangu/akkamma/babi/devayani/mamta/self.gopackage mamta
 
 import (
   "kidiyoor.io/family-tree/pkg/types"
@@ -9,6 +9,10 @@ var (
   // Mamta is a member of the family.
   Mamta = types.Member{
     Name: "Mamta",
+    Spouse: &types.Member{
+        Name: "Jayaram",
+        Gender: types.Male,
+      },
     Children: []*types.Member{&nihit.Nihit, },
     Gender: types.Female,
   }

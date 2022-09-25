@@ -8,7 +8,11 @@ import (
 var (
   // Padhmalatha is a member of the family.
   Padhmalatha = types.Member{
-    Name: "Padhmalatha",
+    Name: "Padmalatha",
+    Spouse: &types.Member{
+        Name: "Sandeep Kadur",
+        Gender: types.Male,
+      },
     Children: []*types.Member{&sparsh.Sparsh, },
     Gender: types.Female,
   }

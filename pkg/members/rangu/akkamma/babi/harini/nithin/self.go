@@ -9,6 +9,10 @@ var (
   // Nithin is a member of the family.
   Nithin = types.Member{
     Name: "Nithin",
+    Spouse: &types.Member{
+        Name: "Sanisha's Mom",
+        Gender: types.Female,
+      },
     Children: []*types.Member{&sanisha.Sanisha, },
     Gender: types.Male,
   }

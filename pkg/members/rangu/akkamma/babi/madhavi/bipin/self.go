@@ -1,4 +1,4 @@
-package bipin
+pkg/members/rangu/akkamma/babi/madhavi/bipin/self.go package bipin
 
 import (
 	"kidiyoor.io/family-tree/pkg/types"
@@ -9,6 +9,10 @@ var (
 	// Bipin is a member of the family.
 	Bipin = types.Member{
 		Name:     "Bipinchandra",
+    Spouse: &types.Member{
+        Name: "Asha",
+        Gender: types.Female,
+      },
     Children: []*types.Member{&premraj.Premraj, },
 		Gender:   types.Male,
 	}
