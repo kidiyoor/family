@@ -7,7 +7,7 @@ import (
 var (
   // Pushpakargi is a member of the family.
   Pushpakargi = types.Member{
-    Name: "PushpaKargi",
+    Name: "Pushpa(Kargi)",
     Children: []*types.Member{},
     Gender: types.Female,
   }

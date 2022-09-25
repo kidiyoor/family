@@ -9,7 +9,7 @@ import (
 var (
   // Ammi is a member of the family.
   Ammi = types.Member{
-    Name: "Ammi",
+    Name: "Ammi(Sumangala)",
     Children: []*types.Member{&mahima.Mahima, &manvitha.Manvitha, },
     Gender: types.Female,
   }

@@ -9,7 +9,7 @@ import (
 var (
   // Prerana is a member of the family.
   Prerana = types.Member{
-    Name: "Prerana",
+    Name: "Prerana(Lipi)",
     Children: []*types.Member{&divesh.Divesh, &g.G, },
     Gender: types.Female,
   }
