@@ -1,13 +1,13 @@
-package suma
+package poorvi
 
 import (
   "kidiyoor.io/family-tree/pkg/types"
 )
 
 var (
-  // Suma is a member of the family.
-  Suma = types.Member{
-    Name: "Suma & Umesh",
+  // Poorvi is a member of the family.
+  Poorvi = types.Member{
+    Name: "Poorvi",
     Children: []*types.Member{},
     Gender: types.Female,
   }
